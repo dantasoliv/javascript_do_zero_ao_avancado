@@ -34,24 +34,6 @@ class ContaEspecial extends Conta{
     constructor(saldoCorrente, saldoPoupanca, juros){
         super(saldoCorrente, saldoPoupanca, juros*2)
     }
-
-    set deposito(valor){
-        this.saldoCorrente += valor;
-    }
-
-    set saque(valor){
-        this.saldoCorrente -= valor;
-    }
-
-    set transferirCP(valor){
-        this.saldoPoupanca += valor;
-        this.saldoCorrente -= valor;
-    }
-
-    set transferirCC(valor){
-        this.saldoPoupanca -= valor;
-        this.saldoCorrente += valor;
-    }
 }
 
 let minhaConta = new Conta(1000, 5000, 1);
