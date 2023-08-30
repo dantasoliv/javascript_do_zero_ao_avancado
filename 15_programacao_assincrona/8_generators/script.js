@@ -6,7 +6,7 @@ function* criadorID(){
     }
 }
 
-let criaId = criadorID()
+let criaId = criadorID() // Colocando a funçãodentro de uma váriavel
 
 console.log(criaId.next().value);
 console.log(criaId.next().value);
