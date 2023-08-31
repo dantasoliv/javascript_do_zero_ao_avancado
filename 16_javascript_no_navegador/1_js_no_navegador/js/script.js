@@ -1,0 +1,1 @@
+alert("Olá"); // Exibe um Popup com uma mensagem antes da página ser carregada a página sóé carregada quando o usuário clicar em OK
